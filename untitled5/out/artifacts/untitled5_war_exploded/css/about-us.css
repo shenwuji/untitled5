@@ -1,0 +1,90 @@
+.about-us{
+  width: 800px;
+  height:400px;
+  border:1px solid red;
+}
+.about-caidan{
+  width: 800px;
+  height: 50px;
+  border:1px solid red;
+  border-bottom: 1px dashed gray;
+}
+.about-caidan>div:nth-child(1){
+  width: 150px;
+  border:1px solid red;
+}
+.about-caidan>div:nth-child(2){
+  width: 600px;
+  cursor: pointer;
+  padding: 0 10px;
+  border:1px solid red;
+}
+.about-us-fudao>div:hover{
+  cursor: pointer;
+  color:rgb(243, 101, 37) ;
+}
+.about-us-fudao>div:hover .yuan{
+ visibility: visible;
+}
+.about-us-des{
+  width: 800px;
+  height: 420px;
+  border:1px solid red;
+}
+.about-us-img{
+  width:380px;
+  height:380px;
+  margin: 10px;
+}
+.about-us-text>div{
+  margin: 5px 0;
+}
+.about-us-text>div:nth-child(1){
+text-align: center;
+  font-size: 20px;
+  color: rgb(243, 101, 37);
+}
+.about-us-text>div:nth-child(2){
+  text-align: center;
+  font-size: 20px;
+}
+.about-us-text1{
+  text-align: left;
+  font-size: 12px;
+  margin: 5px 0;
+}
+.about-us-bottom{
+  width: 800px;
+  height: 170px;
+  border:1px solid red;
+}
+.about-us-bottom>div{
+  animation: focus 5s infinite;
+}
+.about-us-bottom img{
+  width: 150px;
+  height: 130px;
+  margin: 10px 5px;
+}
+.about-us-bottom>div{
+  font-size: 10px;
+  text-align: center;
+}
+@keyframes focus {
+  0% {
+    margin-left: 0;
+    overflow: hidden;
+  }
+  25% {
+    margin-left: -100px;
+  }
+  50% {
+    margin-left: 0px;
+  }
+  75% {
+    margin-left: 100px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}

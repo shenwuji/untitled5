@@ -1,0 +1,92 @@
+.about-caidan{
+  width: 800px;
+  height: 50px;
+  border:1px solid red;
+  border-bottom: 1px dashed gray;
+}
+.about-caidan>div:nth-child(1){
+  width: 150px;
+  border:1px solid red;
+}
+.about-caidan>div:nth-child(2){
+  width: 600px;
+  cursor: pointer;
+  padding: 0 10px;
+  border:1px solid red;
+}
+.about-us-fudao>div:hover{
+  cursor: pointer;
+  color:rgb(243, 101, 37) ;
+}
+.about-us-fudao>div:hover .yuan{
+  visibility: visible;
+}
+.curriculum-center-title{
+  width: 800px;
+  height: 100px;
+  border:1px solid red;
+}
+.curriculum-center-title>div:nth-child(1){
+  text-align: center;
+  font-size: 20px;
+  color:rgb(243, 101, 37) ;
+  margin: 10px 0;
+}
+.curriculum-center-title>div:nth-child(2){
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.online-booking{
+  width: 800px;
+  height: 600px;
+  border:1px solid red;
+}
+.online-booking-img{
+  width: 300px;
+  height: 500px;
+  border:1px solid red;
+}
+.online-booking-img img{
+  width: 250px;
+  height: 200px;
+  margin: 10px 25px;
+}
+.online-booking-img>div>div:nth-child(1){
+ font-size: 30px;
+  font-weight: bold ;
+  color: gray;
+  text-align: center;
+  margin: 0 50px;
+}
+.online-booking-img>div>div:nth-child(2){
+  font-size: 15px;
+  text-align: center;
+  margin: 0 50px;
+}
+.online-booking-form{
+  width: 500px;
+  height:500px ;
+  border:1px solid red;
+}
+.form-text{
+  font-size: 15px;
+  margin: 10px 0;
+}
+/*逗号选择器*/
+input,textarea{
+  width:300px ;
+  height: 20px;
+}
+/*属性选择器*/
+input[type=submit] {
+  width: 307px;
+  background-color: rgb(243, 101, 37);
+  height:30px;
+  color: white;
+}
+textarea {
+  height: 70px;
+  resize: vertical;
+  max-height: 200px;
+}

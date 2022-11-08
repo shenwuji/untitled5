@@ -1,0 +1,138 @@
+.about-caidan{
+  width: 800px;
+  height: 50px;
+  border:1px solid red;
+  border-bottom: 1px dashed gray;
+}
+.about-caidan>div:nth-child(1){
+  width: 150px;
+  border:1px solid red;
+}
+.about-caidan>div:nth-child(2){
+  width: 600px;
+  cursor: pointer;
+  padding: 0 10px;
+  border:1px solid red;
+}
+.about-us-fudao>div:hover{
+  cursor: pointer;
+  color:rgb(243, 101, 37) ;
+}
+.about-us-fudao>div:hover .yuan{
+  visibility: visible;
+}
+.curriculum-center-title{
+  width: 800px;
+  height: 100px;
+  border:1px solid red;
+}
+.curriculum-center-title>div:nth-child(1){
+  text-align: center;
+  font-size: 20px;
+  color:rgb(243, 101, 37) ;
+  margin: 10px 0;
+}
+.curriculum-center-title>div:nth-child(2){
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.contact-us-box{
+  width: 800px;
+  height: 400px;
+  border:1px solid red;
+}
+.contact-us-img{
+  width: 300px;
+  height: 400px;
+  border:1px solid red;
+}
+.contact-us-map{
+  width: 500px;
+  height: 400px;
+  border:1px solid red;
+}
+.about-us-bottom{
+  width: 800px;
+  height: 170px;
+  border:1px solid red;
+}
+.about-us-bottom>div{
+  animation: focus 5s infinite;
+}
+.about-us-bottom img{
+  width: 150px;
+  height: 130px;
+  margin: 10px 5px;
+}
+.about-us-bottom>div{
+  font-size: 10px;
+  text-align: center;
+}
+@keyframes focus {
+  0% {
+    margin-left: 0;
+    overflow: hidden;
+  }
+  25% {
+    margin-left: -100px;
+  }
+  50% {
+    margin-left: 0px;
+  }
+  75% {
+    margin-left: 100px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+.contact-us-img1{
+  width: 300px;
+  height: 160px;
+  margin-bottom: -10px;
+}
+.contact-us-des{
+  position: relative;
+  background: url("../img/30558picqf8_1024_bpvg.jpg") rgba(243, 101, 37,.7) no-repeat center center;
+  background-blend-mode: multiply;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 240px;
+}
+.contact-us-des>div:nth-child(1){
+  width: 240px;
+  height: 140px;
+  border-bottom: 1px dashed gray;
+  margin-left: 20px;
+  padding-left: 20px;
+
+}
+
+.contact-us-des>div>div{
+  margin: 5px 0;
+  font-size: 12px;
+  color: white;
+}
+.contact-us-des-img{
+  width: 30px;
+  height: 25px;
+  margin: 5px;
+}
+.contact-us-des-text{
+margin-top: 10px;
+}
+.contact-us-des-1{
+  padding:3px 0;
+
+}
+
+.contact-us-des-1>div:nth-child(1){
+  width: 20px;
+  height: 20px;
+}
+.contact-us-des-1>div:nth-child(2){
+  margin-left: 10px;
+  text-align: center;
+}

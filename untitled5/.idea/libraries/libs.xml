@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JspObj/out/artifacts/JspObj_Web_exploded/libs/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../JspObj/out/artifacts/JspObj_Web_exploded/libs/fastjson-1.2.76.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../JspObj/out/artifacts/JspObj_Web_exploded/libs/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../JspObj/out/artifacts/JspObj_Web_exploded/libs/jsp-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,8 @@
+[
+{"mID":"1","mName":"首页","mUrl":"/index"},
+{"mID":"2","mName":"关于我们","mUrl":"/AboutUs"},
+{"mID":"3","mName":"新闻中心","mUrl":"/NewsCenter"},
+{"mID":"4","mName":"课程中心","mUrl":"/CurriculumCenter"},
+{"mID":"5","mName":"在线预约","mUrl":"/OnlineBooking"},
+{"mID":"6","mName":"联系我们","mUrl":"/ContactUs"}
+]

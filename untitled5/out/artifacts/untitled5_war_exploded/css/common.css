@@ -1,0 +1,76 @@
+.justify-end{
+  display: flex;
+  justify-content: flex-end;
+}
+.align-end {
+  display: flex;
+  align-items: flex-end;
+  width:140px;
+  border: black 1px solid;
+
+}
+.many-over-six {
+  /*前两行固定用法*/
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /*多余的...表示*/
+  text-overflow: ellipsis;
+  /*最多显示两行*/
+  -webkit-line-clamp:6;
+  /*多余的隐藏*/
+  overflow: hidden;
+}
+.many-over-two {
+  /*前两行固定用法*/
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /*多余的...表示*/
+  text-overflow: ellipsis;
+  /*最多显示两行*/
+  -webkit-line-clamp: 3;
+  /*多余的隐藏*/
+  overflow: hidden;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.yuan {
+  border-radius: 45px 45px 45px 45px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid red;
+  margin: 5px;
+  visibility: hidden;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-over {
+  /*超过的要隐藏*/
+  overflow: hidden;
+  /*不换行*/
+  white-space: nowrap;
+  /*多余的用...表示*/
+  text-overflow: ellipsis;
+}
+.justify-start{
+  display: flex;
+  justify-content: flex-start;
+}

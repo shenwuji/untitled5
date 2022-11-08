@@ -1,0 +1,135 @@
+.top > div > :nth-child(1) {
+  background-color: rgb(243, 101, 37);
+  height: 50px;
+  color: white;
+
+}
+
+.contact {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact > div:nth-child(2) {
+  display: flex;
+}
+
+.contact > div:nth-child(2) > div {
+  display: flex;
+}
+
+.phone {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.phone > div:nth-child(1) {
+  background-image: url("../img/a0gm.jpg");
+  height: 16px;
+  width: 22px;
+}
+
+.email {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.nav {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+}
+
+.nav > div:nth-child(1) {
+  display: flex;
+
+}
+
+.wenzi {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.nav > div:nth-child(2) > div {
+  padding: 0 10px;
+}
+
+.caidan {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  color: black;
+}
+
+
+
+/*鼠标移动到div上的事件*/
+.nav > div:nth-child(2) > div:hover {
+  color: blue;
+  /*鼠标移上去变成手*/
+  cursor: pointer;
+
+}
+
+.nav > div:nth-child(2) > div:hover .yuan {
+  visibility: visible;
+}
+
+
+.ad {
+  background-image: url("../img/c.jpg");
+  background-size: 100% 100%;
+  height: calc(1000 * 540px / 1920);
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+
+}
+
+.ad > div {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.xiaoxun {
+  font-size: 30px;
+}
+
+.ad > div > div {
+  width: 400px;
+}
+
+.ad > div > div > div:nth-child(2) {
+  font-size: 20px;
+  margin: 10px 0;
+  width: 300px;
+}
+
+.button {
+  display: flex;
+  cursor: pointer;
+}
+
+.button > div:nth-child(1) {
+  padding: 10px 30px;
+  margin: 30px 10px;
+  background-color: rgb(243, 101, 37);
+  width: 80px;
+}
+
+.button > div:nth-child(2) {
+  padding: 10px 30px;
+  margin: 30px 10px;
+  background-color: gray;
+}
+
+.biaoyu {
+  display: flex;
+  justify-content: center;
+}
